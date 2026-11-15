@@ -1,0 +1,11 @@
+project_id = "YOUR_PROJECT_ID"
+region = "us-central1"
+vertex_location = "us-central1"
+name = "agent-runtime"
+# First provision the foundation; then build/push your container and set true.
+deploy_agent = false
+agent_image = ""
+model_id = ""
+invoker_members = []
+max_instances = 5
+deletion_protection = true
